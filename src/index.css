@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.title {
+  color: aqua;
+  background-color: burlywood;
+  font-size: 28px;
+}
+
+.bg-black {
+  background-color: rgb(0, 0, 0);
+}
+
+.font-sm{
+    font-size: 28px;
+}
