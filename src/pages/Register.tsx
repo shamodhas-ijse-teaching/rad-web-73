@@ -20,7 +20,7 @@ const Register = () => {
       return
     }
     try {
-      const data = await register(name, email, passsword)
+      await register(name, email, passsword)
       alert("Success..!")
       navigate("/login")
     } catch (err) {
