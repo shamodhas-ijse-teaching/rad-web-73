@@ -54,7 +54,7 @@ const Router = () => {
       >
         <Routes>
           <Route
-            path="/home"
+            path="/"
             element={
               // <RequreAuth roles={["ADMIN"]}>
               <RequreAuth>
