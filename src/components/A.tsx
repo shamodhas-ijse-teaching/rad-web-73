@@ -1,7 +1,7 @@
-import React, { createContext, useState } from "react"
+import { createContext, useState } from "react"
 import B from "./B"
 
-export const XValueContext = createContext()
+export const XValueContext = createContext<any>(null)
 
 const A = () => {
   const [xValue, setXValue] = useState(10)

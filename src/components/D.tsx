@@ -1,8 +1,8 @@
-import React, { useContext } from "react"
+import { useContext } from "react"
 import { XValueContext } from "./A"
 
 const D = () => {
-  const { data, xValue, setXValue } = useContext(XValueContext)
+  const { xValue, setXValue } = useContext(XValueContext)
 
   return (
     <div className="bg-yellow-500  p-5">
