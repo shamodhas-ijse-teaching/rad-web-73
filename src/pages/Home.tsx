@@ -16,7 +16,7 @@ const Home = () => {
     try {
       const data = await getAllPosts(pageNumber, 2)
       setPost(data?.data)
-      setTotalPage(data?.totalPages)
+      setTotalPage(data?.totalPage)
       setPage(pageNumber)
     } catch (err) {
       console.error(err)
